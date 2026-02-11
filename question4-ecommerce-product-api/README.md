@@ -95,7 +95,9 @@ GET http://localhost:8080/api/products?page=0&limit=5
 ]
 ```
 
-**Screenshot:** See `screenshotq4/get all products.png`
+**Screenshot:**
+
+![Get All Products](screenshotq4/get%20all%20products.png)
 
 ---
 
@@ -130,9 +132,11 @@ GET http://localhost:8080/api/products/1
 null
 ```
 
-**Screenshots:** 
-- Success: `screenshotq4/get product by id .png`
-- Not Found: `screenshotq4/test not found.png`
+**Screenshots:**
+
+![Get Product by ID](screenshotq4/get%20product%20by%20id%20.png)
+
+![Not Found Error](screenshotq4/test%20not%20found.png)
 
 ---
 
@@ -173,7 +177,9 @@ GET http://localhost:8080/api/products/category/Electronics
 ]
 ```
 
-**Screenshot:** See `screenshotq4/get all product by category.png`
+**Screenshot:**
+
+![Get Products by Category](screenshotq4/get%20all%20product%20by%20category.png)
 
 ---
 
@@ -214,7 +220,9 @@ GET http://localhost:8080/api/products/brand/Apple
 ]
 ```
 
-**Screenshot:** See `screenshotq4/get product by brand.png`
+**Screenshot:**
+
+![Get Products by Brand](screenshotq4/get%20product%20by%20brand.png)
 
 ---
 
@@ -255,7 +263,9 @@ GET http://localhost:8080/api/products/search?keyword=laptop
 ]
 ```
 
-**Screenshot:** See `screenshotq4/search by keyword.png`
+**Screenshot:**
+
+![Search Products](screenshotq4/search%20by%20keyword.png)
 
 ---
 
@@ -306,7 +316,9 @@ GET http://localhost:8080/api/products/price-range?min=100&max=500
 ]
 ```
 
-**Screenshot:** See `screenshotq4/get product by price range.png`
+**Screenshot:**
+
+![Get Products by Price Range](screenshotq4/get%20product%20by%20price%20range.png)
 
 ---
 
@@ -344,7 +356,9 @@ GET http://localhost:8080/api/products/in-stock
 ]
 ```
 
-**Screenshot:** See `screenshotq4/get instock products.png`
+**Screenshot:**
+
+![Get In-Stock Products](screenshotq4/get%20instock%20products.png)
 
 ---
 
@@ -378,7 +392,9 @@ GET http://localhost:8080/api/products/in-stock
 }
 ```
 
-**Screenshot:** See `screenshotq4/add new product.png`
+**Screenshot:**
+
+![Add New Product](screenshotq4/add%20new%20product.png)
 
 ---
 
@@ -420,7 +436,9 @@ GET http://localhost:8080/api/products/in-stock
 null
 ```
 
-**Screenshot:** See `screenshotq4/update product.png`
+**Screenshot:**
+
+![Update Product](screenshotq4/update%20product.png)
 
 ---
 
@@ -453,7 +471,9 @@ PATCH http://localhost:8080/api/products/1/stock?quantity=50
 }
 ```
 
-**Screenshot:** See `screenshotq4/patch method.png`
+**Screenshot:**
+
+![Update Stock](screenshotq4/patch%20method.png)
 
 ---
 
@@ -480,7 +500,9 @@ No content returned
 404 Not Found
 ```
 
-**Screenshot:** See `screenshotq4/delete method.png`
+**Screenshot:**
+
+![Delete Product](screenshotq4/delete%20method.png)
 
 ---
 
