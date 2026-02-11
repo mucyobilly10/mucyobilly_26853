@@ -209,10 +209,19 @@ Status Code: 404 NOT FOUND
 
 ### Screenshots
 API testing screenshots for all endpoints:
+### 6. All EndPoints
 ![All Endpoints](screenshotq1/all%20end%20points%20shown.png)
+
+### 5. Delete a Book
 ![Delete Book](screenshotq1/deleting%20a%20book%20.png)
+
+### 2. Get Book by ID
 ![Get Book By ID](screenshotq1/get%20by%20id%201.png)
+### 4. Add a New Book
+
 ![Add New Book](screenshotq1/post%20adding%20new%20book.png)
+
+### 1. Get All Books
 ![Postman Collection Run](screenshotq1/Screenshot%202026-02-08%20115654.png)
 
 ### Using Postman
