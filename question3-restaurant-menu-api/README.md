@@ -34,8 +34,8 @@ A RESTful API built with Spring Boot for managing restaurant menu items. This AP
 Before running this application, ensure you have the following installed:
 - Java Development Kit (JDK) 17 or higher
 - Maven 3.6 or higher
-- An IDE (IntelliJ IDEA, Eclipse, or VS Code)
-- Postman or any REST client for testing (optional)
+- An IDE (VS Code)
+- Postman for testing
 
 ## How to Run the Application
 
@@ -498,8 +498,5 @@ This project follows Java best practices:
 
 ## Author
 
-Spring Boot Practical Assignment - Question 3
+26853-Mucyo Billy
 
-## License
-
-This project is created for educational purposes.
