@@ -369,8 +369,5 @@ This project follows Java best practices:
 
 ## Author
 
-Spring Boot REST API Assignment - Question 5
+26853-Mucyo Billy
 
-## License
-
-This project is created for educational purposes.
