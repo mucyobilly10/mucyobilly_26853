@@ -596,8 +596,5 @@ question4-ecommerce-product-api/
 
 ## Author
 
-Spring Boot E-commerce Product API Project
+26853-Mucyo Billy
 
-## License
-
-This project is created for educational purposes.
