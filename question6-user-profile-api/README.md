@@ -394,3 +394,6 @@ The application starts on port `8080` by default.
 - Meaningful variable names are used throughout the controller and model classes.
 - Comments are added where helpful for clarity.
 - Java naming conventions and proper indentation are followed.
+
+## Author
+26853-Mucyo Billy
