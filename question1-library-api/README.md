@@ -210,10 +210,21 @@ Status Code: 404 NOT FOUND
 ### Screenshots
 API testing screenshots for all endpoints:
 
+
 ![All Endpoints](../screenshotq1/all%20end%20points%20shown.png)
+
+**Delete a Book:**
 ![Delete Book](../screenshotq1/deleting%20a%20book%20.png)
+
+**Get Book by ID:**
 ![Get Book By ID](../screenshotq1/get%20by%20id%201.png)
+**Add New Book:**
+
+
 ![Add New Book](../screenshotq1/post%20adding%20new%20book.png)
+
+
+**Get All Books:**
 ![Postman Collection Run](../screenshotq1/Screenshot%202026-02-08%20115654.png)
 
 ### Using Postman
@@ -238,7 +249,7 @@ curl -X GET http://localhost:8080/api/books/1
 curl -X GET "http://localhost:8080/api/books/search?title=java"
 ```
 
-**Add a New Book:**
+**Add New Book:**
 ```bash
 curl -X POST http://localhost:8080/api/books ^
   -H "Content-Type: application/json" ^
@@ -285,18 +296,8 @@ question1-library-api/
 - ✅ JSON request/response format
 - ✅ In-memory data storage with pre-populated sample data
 
-## Future Enhancements
-- Database integration (MySQL/PostgreSQL)
-- Input validation and error handling
-- Pagination for large datasets
-- Update (PUT/PATCH) endpoint for books
-- Authentication and authorization
-- Unit and integration tests
-- API documentation with Swagger/OpenAPI
 
 ## Author
-Library Management API - Spring Boot Practical Exercise
+26853-Mucyo Billy
 
-## License
-This project is created for educational purposes.
 
