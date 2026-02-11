@@ -208,14 +208,13 @@ Status Code: 404 NOT FOUND
 ## Testing
 
 ### Screenshots
-API testing screenshots are available in the `C:\springboot-practicals\screenshotq1` directory, demonstrating successful API calls for all endpoints.
+API testing screenshots for all endpoints:
 
-![Get All Books](C:\springboot-practicals\screenshotq1\get-all-books.png)
-![Get Book by ID](C:\springboot-practicals\screenshotq1\get-book-by-id.png)
-![Search Books](C:\springboot-practicals\screenshotq1\search-books.png)
-![Add Book](C:\springboot-practicals\screenshotq1\add-book.png)
-![Delete Book](C:\springboot-practicals\screenshotq1\delete-book.png)
-
+![All Endpoints](screenshotq1/all%20end%20points%20shown.png)
+![Delete Book](screenshotq1/deleting%20a%20book%20.png)
+![Get Book By ID](screenshotq1/get%20by%20id%201.png)
+![Add New Book](screenshotq1/post%20adding%20new%20book.png)
+![Postman Collection Run](screenshotq1/Screenshot%202026-02-08%20115654.png)
 ### Using Postman
 1. Import the provided Postman collection (if available)
 2. Ensure the application is running on `http://localhost:8080`
@@ -299,3 +298,4 @@ Library Management API - Spring Boot Practical Exercise
 
 ## License
 This project is created for educational purposes.
+
