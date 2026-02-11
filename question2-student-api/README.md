@@ -18,7 +18,7 @@ A RESTful API built with Spring Boot for managing student records. This applicat
 ## Prerequisites
 - Java Development Kit (JDK) 17 or higher
 - Maven 3.6+ (or use the included Maven wrapper)
-- IDE (IntelliJ IDEA, Eclipse, or VS Code)
+- IDE ( VS Code)
 
 ## How to Run the Application
 
@@ -91,6 +91,8 @@ GET http://localhost:8080/api/students
 
 **Screenshot:**
 
+
+### 1. Get All Students
 ![Get All Students](screenshotq2/getting%20all%20students.png)
 
 ---
@@ -360,7 +362,6 @@ The application comes pre-loaded with 5 sample students:
 5. Ethan Black - Chemistry (GPA: 2.9)
 
 ## Author
-Spring Boot Student API Project
+26853-Mucyo Billy
 
-## License
-This project is created for educational purposes.
+
