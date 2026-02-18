@@ -4,14 +4,10 @@ This project is a Spring Boot + PostgreSQL REST API for managing products.
 
 ## What Was Implemented
 
-1. Created full CRUD operations for `Product`.
+1. I Created full CRUD operations for `Product`.
 2. Configured PostgreSQL connection.
 3. Set server port to `8089`.
-4. Fixed `405 Method Not Allowed` issue by allowing create endpoint on:
-   - `POST /api/products`
-   - `POST /api/products/`
-   - `POST /api/products/addProduct`
-5. Verified CRUD behavior through Postman and direct PostgreSQL queries.
+4. Verified CRUD behavior through Postman and direct PostgreSQL queries.
 
 ## Tech Stack
 
@@ -45,18 +41,7 @@ Base URL: `http://localhost:8089/api/products`
 5. Delete Product  
    `DELETE /api/products/{id}`
 
-## Sample JSON (Create / Update)
 
-```json
-{
-  "id": 1,
-  "name": "Phone",
-  "description": "Smartphone",
-  "price": 350.0,
-  "category": "Electronics",
-  "stockQuantity": 10
-}
-```
 
 ## How CRUD Was Verified in PostgreSQL
 
@@ -83,14 +68,6 @@ DELETE FROM public.product WHERE id = 9002;
 SELECT * FROM public.product WHERE id = 9002;
 ```
 
-## Important Troubleshooting Notes
-
-1. `405 Method Not Allowed` happened when posting to `/api/products` while create mapping only allowed `/addProduct`.  
-   Fixed by mapping create method to both base and legacy path.
-
-2. `ERROR: relation "product" does not exist` happened when querying the wrong DB/schema.  
-   Correct table location is `public.product` in `restapi_db`.
-
 ## Screenshots (Evidence)
 
 ### Postman Tests
@@ -115,8 +92,11 @@ SELECT * FROM public.product WHERE id = 9002;
 
 ![Check deleted product](screenshots/checking%20the%20deleted%20product.png)
 
-## Current Status
+ ## Current Status
 
 - Product CRUD API is implemented.
 - Endpoints are reachable on port `8089`.
 - Data is persisted in PostgreSQL (`restapi_db`) and verified through SQL queries.
+
+ ## Author
+  Mucyo Billy - 26853
