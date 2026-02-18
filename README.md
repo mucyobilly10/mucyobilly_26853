@@ -95,25 +95,25 @@ SELECT * FROM public.product WHERE id = 9002;
 
 ### Postman Tests
 
-![Create product in Postman](../screenshots/create%20new%20product%20using%20postman.png)
+![Create product in Postman](screenshots/create%20new%20product%20using%20postman.png)
 
-![Get all products in Postman](../screenshots/postman%20get%20all%20product%20png.png)
+![Get all products in Postman](screenshots/postman%20get%20all%20product%20png.png)
 
-![Update successful in Postman](../screenshots/update%20succesfull%20in%20postman.png)
+![Update successful in Postman](screenshots/update%20succesfull%20in%20postman.png)
 
 ### PostgreSQL Verification
 
-![Select by id](../screenshots/select%20from%20id%20.png)
+![Select by id](screenshots/select%20from%20id%20.png)
 
-![Select by id (second check)](../screenshots/select%20from%20id%202%20.png)
+![Select by id (second check)](screenshots/select%20from%20id%202%20.png)
 
-![Check created product in Postgres](../screenshots/check%20created%20product%20in%20postgres.png)
+![Check created product in Postgres](screenshots/check%20created%20product%20in%20postgres.png)
 
-![Check update in Postgres](../screenshots/check%20update%20in%20postgres.png)
+![Check update in Postgres](screenshots/check%20update%20in%20postgres.png)
 
-![Delete query in Postgres](../screenshots/delete%20query%20in%20postgres.png)
+![Delete query in Postgres](screenshots/delete%20query%20in%20postgres.png)
 
-![Check deleted product](../screenshots/checking%20the%20deleted%20product.png)
+![Check deleted product](screenshots/checking%20the%20deleted%20product.png)
 
 ## Current Status
 
